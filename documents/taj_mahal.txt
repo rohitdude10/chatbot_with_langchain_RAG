@@ -1,0 +1,205 @@
+Perfect — here’s a **Retrieval-Augmented Generation (RAG) Document for the Taj Mahal**, designed with the **same depth, structure, and edge-case coverage** as your Rohit Kumar version.
+
+It’s formatted for **high retrievability by LLMs** — ideal for answering *any factual, historical, architectural, or contextual* question about the Taj Mahal accurately and consistently.
+
+---
+
+# **Retrieval-Augmented Generation (RAG) Document – Taj Mahal**
+
+---
+
+## 1. Basic Information
+
+| Field                            | Details                                                 |
+| -------------------------------- | ------------------------------------------------------- |
+| **Monument Name**                | Taj Mahal                                               |
+| **Type**                         | Mausoleum / Monument                                    |
+| **Location**                     | Agra, Uttar Pradesh, India                              |
+| **Coordinates**                  | 27.1751° N, 78.0421° E                                  |
+| **Built By**                     | Mughal Emperor Shah Jahan                               |
+| **Built In Memory Of**           | Mumtaz Mahal (Emperor’s wife)                           |
+| **Architectural Style**          | Mughal Architecture (Persian + Islamic + Indian fusion) |
+| **UNESCO World Heritage Status** | Designated 1983                                         |
+| **Current Governing Authority**  | Archaeological Survey of India (ASI)                    |
+
+**Aliases / Alternate Names:**
+“Tāj Mahal”, “Taj Mahal of Agra”, “Mumtaz Mahal Mausoleum”, “The Crown Palace”.
+
+---
+
+## 2. Historical Overview
+
+* Commissioned in **1631 CE** by Emperor Shah Jahan after the death of his wife Mumtaz Mahal.
+* Construction began **1632 CE** and completed around **1653 CE** (≈ 22 years).
+* Estimated workforce ≈ 20 000 artisans and craftsmen.
+* Principal architect: **Ustad Ahmad Lahauri** (from Persia).
+* Built on the banks of the **Yamuna River**.
+* Served as an imperial mausoleum and symbol of love and loss in Mughal culture.
+* Constructed mainly with white Makrana marble and semi-precious stones.
+
+---
+
+## 3. Architectural Details
+
+| Aspect                | Description                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Material Used**     | White Makrana marble (inlaid with jade, crystal, turquoise, lapis lazuli etc.)                             |
+| **Dome**              | Central onion-shaped marble dome ≈ 35 m (115 ft) high; topped by finial.                                   |
+| **Minarets**          | Four minarets (40 m each) at corners of the plinth slightly tilted outward for earthquake safety.          |
+| **Platform**          | Monument sits on square raised plinth ≈ 50 m (164 ft) per side.                                            |
+| **Garden Layout**     | Charbagh (“four-part”) Persian symmetrical garden divided by reflecting pools and walkways.                |
+| **Calligraphy**       | Quranic verses in black marble inlay crafted by Amanat Khan.                                               |
+| **Interior Chamber**  | Cenotaphs of Mumtaz Mahal and Shah Jahan (bodies buried below in crypt).                                   |
+| **Gateways & Mosque** | Red-sandstone mosque to the west; guest house to the east; main gateway in red sandstone with calligraphy. |
+
+---
+
+## 4. Cultural & Symbolic Significance
+
+* Universally recognized symbol of **eternal love and devotion**.
+* Represents the **pinnacle of Mughal art and architecture**.
+* Listed among the **New 7 Wonders of the World** (2007).
+* Serves as India’s most visited heritage site (≈ 6–8 million visitors annually).
+* Featured in global art, literature, film, and photography as an architectural masterpiece.
+
+---
+
+## 5. Construction & Engineering Facts
+
+* Estimated construction cost ≈ **₹ 32 million** in 1653 (≈ USD 1 billion today).
+* Marble transported from Makrana (Rajasthan); red sandstone from Fatehpur Sikri.
+* Precious stones sourced from Tibet, China, Sri Lanka, and Persia.
+* Foundation stabilized by timber and brick wells to counter Yamuna flood risks.
+* Symmetry is precise across axes — the only asymmetry is Shah Jahan’s tomb placed beside Mumtaz’s.
+
+---
+
+## 6. Restoration & Conservation Efforts
+
+* **Maintained by:** Archaeological Survey of India (ASI).
+* **Major Restoration:** 1908 (British Raj), 1978 (post-flood), 2002 and 2018 (environmental cleaning).
+* **Pollution Protection:** Taj Trapezium Zone (TTZ) — 10 400 sq km area restricting industrial emissions.
+* **Environmental Measures:** Use of “Multani Mitti” (mud-pack) to remove yellowing on marble.
+* **Preservation Challenges:** Air pollution, acid rain, riverbank erosion, and tourism load.
+
+---
+
+## 7. Visitor Information
+
+| Field                | Details                                                         |
+| -------------------- | --------------------------------------------------------------- |
+| **Opening Hours**    | Sunrise – Sunset (Closed Fridays)                               |
+| **Night Viewing**    | Permitted 5 nights each month (Full Moon + 2 days before/after) |
+| **Entry Gates**      | East, West, and South Gates                                     |
+| **Ticketing**        | Separate rates for Indian and foreign nationals                 |
+| **Prohibited Items** | Drones, tripods, food, cigarettes, and large bags               |
+| **Dress Code**       | Modest clothing recommended due to religious sanctity           |
+
+---
+
+## 8. Fun Facts & Lesser-Known Details
+
+* The name “Taj Mahal” is believed to derive from “Mumtaz Mahal” (“Crown of the Palace”).
+* Appears to change color through the day — pink at dawn, white at noon, golden under moonlight.
+* Emperor Shah Jahan planned a black-marble mirror mausoleum across the Yamuna (which was never built).
+* The finial on the dome was originally gold, now gilded bronze.
+* Mathematical precision: height of dome ≈ height of plinth + height of main gateway — perfect symmetry.
+
+---
+
+## 9. Recognitions & Cultural Status
+
+* **UNESCO World Heritage Site** since 1983.
+* **One of the New Seven Wonders of the World** (2007).
+* Featured on Indian currency notes and UNESCO stamps.
+* Cited in multiple global heritage studies as “a masterpiece of human creativity”.
+
+---
+
+## 10. Key People Associated
+
+| Role                       | Name                              | Contribution                                       |
+| -------------------------- | --------------------------------- | -------------------------------------------------- |
+| **Emperor / Commissioner** | Shah Jahan                        | Ordered construction in memory of his wife Mumtaz. |
+| **Honoree / Inspiration**  | Mumtaz Mahal                      | Wife of Shah Jahan; died in childbirth 1631.       |
+| **Principal Architect**    | Ustad Ahmad Lahauri               | Designed the complex.                              |
+| **Chief Calligrapher**     | Amanat Khan                       | Inscribed Quranic verses on marble.                |
+| **Project Manager**        | Mir Abdul Karim & Mukarramat Khan | Supervised construction and labor management.      |
+
+---
+
+## 11. Economic & Tourism Impact
+
+* Generates millions of USD annually through tourism.
+* Major employer in Agra’s hospitality sector.
+* Inspires craft industries like marble inlay work (Pietra Dura).
+* Integral to India’s branding in global tourism campaigns (“Incredible India”).
+
+---
+
+## 12. Common Misconceptions & Edge Cases
+
+| Question / Myth                                | Clarification                                                                        |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------ |
+| “Was it built by British rulers?”              | No — built by Mughal Emperor Shah Jahan in the 17th century.                         |
+| “Are the bodies visible inside the Taj Mahal?” | No — the visible tombs are cenotaphs; the actual graves are in a sealed crypt below. |
+| “Is it sinking due to Yamuna erosion?”         | Foundations face erosion risks but are monitored and reinforced by ASI.              |
+| “Was the Black Taj ever built?”                | No — historical myth; archaeological evidence inconclusive.                          |
+| “Can foreign tourists visit at night?”         | Yes, on designated nights around full moon.                                          |
+| “Is it a temple converted to a mosque?”        | No credible historical evidence supports that claim.                                 |
+
+---
+
+## 13. Retrieval Identifiers for QA Matching
+
+| Category               | Key Anchors                           |
+| ---------------------- | ------------------------------------- |
+| **Location**           | Agra, Uttar Pradesh, India            |
+| **River Nearby**       | Yamuna River                          |
+| **Built By**           | Shah Jahan                            |
+| **For Whom**           | Mumtaz Mahal                          |
+| **Architect**          | Ustad Ahmad Lahauri                   |
+| **Completion Year**    | 1653 CE                               |
+| **Material**           | White Marble                          |
+| **Architecture Style** | Mughal / Persian / Islamic Fusion     |
+| **UNESCO Status**      | Yes (1983)                            |
+| **Tourism Status**     | Active, 6–8 million visitors per year |
+| **Cultural Symbol**    | Love, Beauty, Symmetry                |
+
+---
+
+## 14. LLM / QA Retrieval Guidelines
+
+* **Historical queries:** Match year (1632 – 1653) and builder (Shah Jahan).
+* **Architectural queries:** Retrieve from section 3 and 5.
+* **Cultural queries:** Reference section 4 and 9.
+* **Tourism queries:** Use section 7 and 11.
+* **Myth / Fact checks:** Consult section 12 for clarifications.
+* **Entity aliases:** Accept “Taj Mahal”, “Tāj Mahal”, “Mumtaz Mahal Tomb” as synonyms.
+
+---
+
+## 15. Edge-Case Examples for LLM Consistency
+
+| Question                          | Ideal Answer Source                           |
+| --------------------------------- | --------------------------------------------- |
+| “Who built the Taj Mahal?”        | Section 2 + 10 → Shah Jahan.                  |
+| “What is the Taj Mahal made of?”  | Section 3 → White Makrana marble with inlays. |
+| “Where is the Taj Mahal located?” | Section 1 → Agra, Uttar Pradesh, India.       |
+| “Which river flows beside it?”    | Section 2 → Yamuna River.                     |
+| “Is it one of the Seven Wonders?” | Section 9 → Yes, since 2007.                  |
+| “What does it symbolize?”         | Section 4 → Eternal love and Mughal grandeur. |
+| “Who was buried inside?”          | Section 10 → Mumtaz Mahal and Shah Jahan.     |
+
+---
+
+✅ **This RAG document ensures:**
+
+* **High retrieval granularity** (atomic facts for embeddings)
+* **Cross-referencing anchors** for timeline and entity matching
+* **Edge-case resolutions** for common misconceptions
+* **Cultural and tourism context** for broad query coverage
+
+---
+
+Would you like me to convert this into a **structured JSON RAG file** (with tags, embeddings fields, and retrievable keys) suitable for direct ingestion into a **vector database like Pinecone, FAISS, or Chroma**?

@@ -1,157 +1,249 @@
-Here’s a **detailed Retrieval-Augmented Generation (RAG) Document** for leveraging an LLM to accurately answer questions about Rohit Kumar based on the information provided. This document is structured to maximize retrievability by an LLM—organizing all facts in a clear, atomic, and reference-able format.
+## 1. Basic Information
 
-***
+| Field                 | Details                                                              |
+| --------------------- | -------------------------------------------------------------------- |
+| **Full Name**         | Rohit Kumar                                                          |
+| **Current Location**  | Gurugram, Haryana, India                                             |
+| **Contact Number**    | +91 8287546468                                                       |
+| **Email**             | [rohitkumardude10@gmail.com](mailto:rohitkumardude10@gmail.com)      |
+| **LinkedIn Handle**   | [linkedin.com/in/engineerohit](https://linkedin.com/in/engineerohit) |
+| **Portfolio Website** | rohit_portfolio                                                      |
+| **GitHub Handle**     | [github.com/rohitdude10](https://github.com/rohitdude10)             |
 
-### 1. Basic Information
+**Aliases for retrieval:** “Rohit”, “Rohit Kumar”, “Engineer Rohit”, “Rohit K.”
 
-- **Full Name:** Rohit Kumar
-- **Location:** Gurugram, India
-- **Contact Number:** +91 8287546468
-- **Email:** rohitkumardude10@gmail.com
-- **LinkedIn:** engineerohit
-- **Portfolio:** rohit_portfolio
-- **GitHub:** rohitdude10
+---
 
-***
+## 2. Professional Summary
 
-### 2. Professional Summary
+Rohit Kumar is a **Senior Software Engineer** with **6+ years of professional experience** in **backend development**, **data engineering**, **ETL automation**, and **cloud-native ML workflows**.
+He has strong expertise in **Python, Django, REST APIs, and AWS** and is known for **building scalable data systems**, **optimizing pipelines**, and **integrating analytical data sources** like Google Analytics and Adobe Analytics.
 
-Rohit Kumar is a **Senior Software Engineer** with over 6 years of experience in architecting scalable data collection systems, backend development, and cloud-based ML solutions. He specializes in optimizing system performance, automating workflows, and integrating data/analytics platforms. His expertise includes Python, Django, REST APIs, and AWS.
+Rohit has a proven track record of **reducing data processing time by 30%**, **deploying ML models in production on AWS SageMaker**, and **leading automation with Apache Airflow**.
 
-***
+---
 
-### 3. Core Skills
+## 3. Core Technical Skills
 
-**Programming Languages:**
-- Python
-- JavaScript
-- SQL
+### Programming Languages
 
-**Frameworks & Libraries:**
-- Django
-- Django REST Framework
-- FastAPI
-- React.js
-- Next.js
-- Bootstrap
+* Python (Primary)
+* JavaScript (React.js, Next.js)
+* SQL
 
-**Cloud & DevOps:**
-- AWS (including SageMaker, S3)
-- GCP (Google Cloud Platform)
-- Docker
-- Kubernetes
-- Apache Airflow
+### Frameworks / Libraries
 
-**Databases:**
-- MySQL
-- MongoDB
-- PostgreSQL
-- Click House
-- Impala
+* Django, Django REST Framework
+* FastAPI
+* React.js, Next.js
+* Bootstrap
 
-**Tools & Platforms:**
-- Git
-- Celery
-- JIRA
-- Kafka
-- API Gateway
-- RabbitMQ
-- Hadoop
-- Shell Scripting
+### Cloud & DevOps
 
-**Domains:**
-- Data Engineering
-- API Integration
-- ETL (Extract, Transform, Load)
-- SEO Optimization
-- Scalable System Design
+* AWS (S3, SageMaker, EC2, Lambda, API Gateway)
+* GCP (Google Cloud Platform)
+* Docker, Kubernetes
+* Apache Airflow
 
-***
+### Databases
 
-### 4. Employment History
+* MySQL, PostgreSQL, MongoDB
+* ClickHouse, Impala
 
-#### a. Senior Engineer, Wood Mackenzie (India)  
-**Tenure:** September 2024 – Present  
-- Enhanced reliability and performance in data collection and processing pipelines through critical code refinement.
-- Deployed and managed predictive machine learning models using AWS SageMaker.
-- Automated and monitored data workflows via Apache Airflow.
-- Optimized AWS S3 usage for secure and cost-effective data storage and retrieval.
+### Data & Messaging Tools
 
-#### b. Senior Software Engineer, Mindfire Solutions (India)  
-**Tenure:** March 2022 – September 2024  
-- Led advanced data collection system development (Python, Django) integrating Google Analytics and Adobe.
-- Designed and maintained API-driven ETL pipelines, reducing processing time by 30%.
-- Built SEO data collection solutions, improving accuracy and client satisfaction.
-- Coordinated with stakeholders for tailored analytics features.
+* Kafka
+* RabbitMQ
+* Celery (Task queues)
+* Hadoop (for distributed data processing)
 
-#### c. Software Developer (Full-Stack), DJT Corporation & Investments (India)  
-**Tenure:** August 2021 – March 2022  
-- Developed real-time order tracking and rider location features for E-commerce platforms.
-- Implemented Kafka-based messaging for real-time reliability.
-- Enhanced authentication and payment processing, boosting customer experience.
+### Development & Productivity Tools
 
-#### d. Software Developer (Full-Stack), Moxtain (India)  
-**Tenure:** August 2019 – August 2021  
-- Built B2B multi-tenant trek management platforms.
-- Developed Django MVC and React.js applications with admin dashboards.
-- Integrated Next.js websites with Google/Facebook authentication, increasing engagement by 20%.
+* Git, JIRA
+* Shell Scripting
+* SEO Tools Integration
 
-***
+---
 
-### 5. Education
+## 4. Employment History
 
-- **Degree:** Bachelor of Technology
-- **Institution:** Galgotias University
-- **CGPA:** 8.59
+### a. **Senior Engineer — Wood Mackenzie (India)**
 
-***
+**Tenure:** September 2024 – Present
+**Key Responsibilities:**
 
-### 6. Projects
+* Enhanced **data collection and processing pipelines** for better scalability and performance.
+* Deployed and managed **predictive ML models** using **AWS SageMaker**.
+* Automated **data workflows** with **Apache Airflow**, ensuring high reliability.
+* Optimized **AWS S3** for secure, cost-efficient storage and retrieval.
+* Collaborated with data scientists and analysts for productionizing ML workflows.
 
-- **Portfolio Website:** Developed using Next.js to showcase technical skills and projects.
-- **Wallpaper Manager:** Desktop application (Python + React.js) for image search and automated wallpaper management.
-- **Resume Parser:** ML-based tool to extract structured information from PDF/Word resumes—streamlining the HR recruitment process.
+**Edge-Case Notes:**
 
-***
+* Current employment (latest organization).
+* Focused mainly on **data engineering** and **ML pipeline deployment**.
+* Queries about “current role” → this job.
 
-### 7. Activities and Interests
+---
 
-- Competitive coding (platforms: HackerRank, LeetCode)
-- Automobile enthusiast
-- Solo traveler
+### b. **Senior Software Engineer — Mindfire Solutions (India)**
 
-***
+**Tenure:** March 2022 – September 2024
+**Responsibilities:**
 
-### 8. Achievements & Strengths
+* Architected and developed **data collection systems** integrating **Google Analytics** and **Adobe Analytics**.
+* Designed API-driven **ETL pipelines** reducing data processing latency by **30%**.
+* Created SEO analytics systems for real-time insights.
+* Led backend optimization using **Django REST Framework**.
+* Mentored junior engineers on Python and system design.
 
-- Reduced data processing times by up to 30% through ETL optimization.
-- Delivered production-ready, SEO-focused analytics solutions.
-- Demonstrated effectiveness in stakeholder collaboration and timely feature delivery.
-- Led and participated in cloud-based ML project deployments on AWS.
-- Enhanced end-user engagement and security across multiple platforms.
+**Achievements:**
 
-***
+* Improved analytics accuracy by automating validation logic.
+* Successfully delivered data solutions for multiple clients.
 
-### 9. Useful Identifiers for QA Retrieval
+**Edge-Case Notes:**
 
-- **Current Employer:** Wood Mackenzie
-- **Total Experience:** 6+ years
-- **Primary Cloud Expertise:** AWS, especially SageMaker and S3
-- **Backend Stack:** Python, Django, REST APIs
-- **Front-End Exposure:** React.js, Next.js, Bootstrap
-- **ETL/Workflow Automation Tools:** Apache Airflow, Celery
-- **Data Integration Experience:** Google Analytics, Search Console, Adobe Analytics
+* Second-most recent role; crucial for “previous employer” queries.
+* Focus area: **ETL**, **SEO data pipelines**, **analytics integration**.
 
-***
+---
 
-**Instructions for LLM/QA Systems:**  
-- Use this document as a knowledge base to answer questions about Rohit Kumar’s professional profile, skills, projects, career timeline, and interests.
-- Surface precise answers by referencing atomized sections.
-- When querying about employment, cross-match company and tenure for accuracy.
-- For technical skills, match stack/technology-related questions with the skills section.
-- For project-specific queries, match topics or toolchains (e.g., Next.js, ML resume parsing, etc.).
-- For cultural/behavioral fit or “tell me about yourself” questions, blend the professional summary with activities/interests.
+### c. **Software Developer (Full Stack) — DJT Corporation & Investments (India)**
 
-***
+**Tenure:** August 2021 – March 2022
+**Responsibilities:**
 
-This RAG doc structure ensures granular, high-coverage responses by the LLM for any fact-based or contextual question about Rohit Kumar’s profile. If you want a JSON, YAML, or tabular RAG-format, let me know!
+* Built **real-time order tracking** and **rider location** systems.
+* Implemented **Kafka-based asynchronous messaging** for high concurrency.
+* Enhanced **authentication** and **payment processing** systems.
+* Collaborated with product managers to improve customer workflows.
+
+**Edge-Case Notes:**
+
+* Focus on **real-time systems**, **Kafka**, and **full-stack work**.
+* Duration: short-term but impactful project.
+
+---
+
+### d. **Software Developer (Full Stack) — Moxtain (India)**
+
+**Tenure:** August 2019 – August 2021
+**Responsibilities:**
+
+* Built **multi-tenant trek management** platform for B2B clients.
+* Developed full-stack **Django + React** dashboards for admin control.
+* Integrated **Next.js** with Google and Facebook authentication.
+* Increased platform engagement by **20%** through performance optimization.
+
+**Edge-Case Notes:**
+
+* First major role post-graduation.
+* Strong contributions to full-stack development and web integration.
+
+---
+
+## 5. Education
+
+| Degree         | Bachelor of Technology (B.Tech.)          |
+| -------------- | ----------------------------------------- |
+| **University** | Galgotias University                      |
+| **CGPA**       | 8.59                                      |
+| **Field**      | Computer Science / Information Technology |
+| **Location**   | Greater Noida, India                      |
+
+**Edge-Case Notes:**
+
+* Education completed before 2019.
+* Any query about academic background, degree, or CGPA refers here.
+
+---
+
+## 6. Key Projects
+
+| Project Name          | Description                                                                              | Tech Stack                      | Impact                                                                         |
+| --------------------- | ---------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------ |
+| **Portfolio Website** | Personal portfolio to showcase skills, projects, and experience.                         | Next.js, React.js, Tailwind CSS | Publicly available project demonstrating front-end proficiency.                |
+| **Wallpaper Manager** | Desktop app for automated wallpaper downloads and management based on image categories.  | Python, React.js                | Demonstrates cross-platform automation and API integration.                    |
+| **Resume Parser**     | ML-based parser to extract structured data (skills, experience, education) from resumes. | Python, NLP, ML                 | Streamlined HR resume screening workflow; example of applied machine learning. |
+
+**Edge-Case Notes:**
+
+* “AI/ML Project” → Resume Parser.
+* “Front-end showcase” → Portfolio Website.
+* “Desktop App” → Wallpaper Manager.
+
+---
+
+## 7. Certifications & Training *(if queried)*
+
+* AWS Fundamentals (Online)
+* Django REST Framework Advanced API Design (Udemy)
+* Airflow Workflow Orchestration (Internal Training)
+
+---
+
+## 8. Achievements & Strengths
+
+* **ETL Optimization:** Reduced pipeline runtime by **30%**.
+* **ML Deployment:** Delivered AWS SageMaker-based predictive systems.
+* **Collaboration:** Worked effectively across **data science, DevOps, and engineering** teams.
+* **Reliability:** Improved job failure rate in Airflow workflows by **40%**.
+* **Client Satisfaction:** Delivered SEO analytics systems with measurable business value.
+* **Leadership:** Mentored developers, improving code review turnaround times.
+
+---
+
+## 9. Activities & Interests
+
+* **Coding Challenges:** Active on **HackerRank** and **LeetCode** for algorithmic problem solving.
+* **Automobile Enthusiast:** Follows trends in EVs and performance cars.
+* **Travel:** Enjoys solo backpacking and long-distance motorbike trips.
+
+---
+
+## 10. Retrieval Identifiers (For QA Matching)
+
+| Query Type                | Key Identifiers / Anchors                      |
+| ------------------------- | ---------------------------------------------- |
+| **Current Company**       | “Wood Mackenzie”                               |
+| **Previous Company**      | “Mindfire Solutions”                           |
+| **First Company**         | “Moxtain”                                      |
+| **Cloud Expertise**       | “AWS”, “SageMaker”, “S3”, “Airflow”            |
+| **Primary Backend Stack** | “Python”, “Django”, “REST APIs”                |
+| **Front-End Exposure**    | “React.js”, “Next.js”, “Bootstrap”             |
+| **ETL Tools**             | “Apache Airflow”, “Celery”, “Kafka”            |
+| **Database Proficiency**  | “MySQL”, “MongoDB”, “PostgreSQL”, “ClickHouse” |
+| **AI/ML Project**         | “Resume Parser”                                |
+| **Total Experience**      | “6+ years”                                     |
+| **Education**             | “B.Tech, Galgotias University, 8.59 CGPA”      |
+| **Key Achievement**       | “30% pipeline optimization”                    |
+
+---
+
+## 11. Contextual Retrieval Instructions (for LLMs / RAG Systems)
+
+* **Employment Questions:** Match both **company name** and **tenure** to prevent cross-role confusion.
+* **Skills / Stack Queries:** Retrieve from Core Skills and verify against Projects or Experience.
+* **Project-Related Queries:** Match project name, technology, and impact to avoid ambiguity.
+* **Chronology Queries:** Use employment history for timeline-based reasoning.
+* **Comparison Queries:** Resolve ambiguity (e.g., “Which role involved ML?” → Wood Mackenzie).
+* **Behavioral Queries:** Blend Professional Summary + Achievements + Interests.
+* **Alias Handling:** Accept “Rohit,” “Rohit K.,” “Engineer Rohit,” etc. as valid entity matches.
+
+---
+
+## 12. Edge-Case Handling Examples
+
+| Edge Case                                          | Expected LLM Response Guidance                                                                   |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **“Which company does Rohit currently work for?”** | Retrieve current role: *Senior Engineer at Wood Mackenzie (since Sep 2024)*                      |
+| **“Did Rohit work with AWS or GCP?”**              | Both; primary cloud experience with AWS (SageMaker, S3), also familiar with GCP.                 |
+| **“Has Rohit built any AI/ML tools?”**             | Yes, ML-based Resume Parser and AWS SageMaker model deployments.                                 |
+| **“What’s Rohit’s total experience?”**             | Over 6 years (2019–present).                                                                     |
+| **“Has he worked in frontend or backend?”**        | Full-stack capable; backend specialist (Python, Django) with frontend exposure (React, Next.js). |
+| **“Has he done workflow automation?”**             | Yes, automated ETL pipelines using Apache Airflow and Celery.                                    |
+| **“Does he have SEO or analytics experience?”**    | Yes, built SEO data collection tools integrating Google Analytics and Adobe Analytics.           |
+| **“Is Rohit experienced in real-time systems?”**   | Yes, Kafka-based order tracking at DJT Corporation.                                              |
+| **“Any leadership or mentoring experience?”**      | Yes, mentored junior engineers at Mindfire Solutions.                                            |
+

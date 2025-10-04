@@ -8,3 +8,10 @@ pypdf>=3.17.4
 markdown>=3.5.1
 tiktoken>=0.5.2
 sentence-transformers>=2.2.2
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+# add pip install python-multipart
+python-multipart>=0.0.5,<0.1.0
+
+

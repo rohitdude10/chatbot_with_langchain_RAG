@@ -12,6 +12,8 @@ A comprehensive Python chatbot application that uses LangChain, Google Gemini AP
 - **Comprehensive Logging**: Detailed logging system for debugging and monitoring
 - **CLI Interface**: User-friendly command-line interface
 - **New Terminal**: Automatically opens in a new terminal window for clean interface
+- **REST API**: FastAPI-based REST API for programmatic access
+- **Web Interface**: Built-in web interface for testing
 - **Hot Reload**: Update document index on-the-fly
 - **Error Handling**: Graceful error handling and recovery
 
@@ -78,7 +80,7 @@ The application comes with sample documents for testing.
 
 ## 🚀 Usage
 
-### Start the Chatbot
+### CLI Interface
 
 ```bash
 python chatbot.py
@@ -86,10 +88,88 @@ python chatbot.py
 
 **The chatbot will automatically open in a new terminal window for a clean conversation experience!**
 
+### REST API Interface
+
+#### Start the API Server
+
+```bash
+# Easy startup with checks
+python start_api.py
+
+# Or directly
+python api_server.py
+```
+
+#### Access the API
+
+- **Modern Web Interface**: http://localhost:8000 (Beautiful chatbot UI with thinking animations)
+- **API Documentation**: http://localhost:8000/docs
+- **Interactive API**: http://localhost:8000/redoc
+
+### Context Toggle Feature
+
+The web interface includes a toggle switch that allows you to choose between two modes:
+
+#### 📚 **Document Mode (RAG Enabled)**
+- **When ON**: Uses your uploaded documents to provide context-aware answers
+- **Best for**: Questions about your specific documents, knowledge base queries
+- **Example**: "What does my resume say about my Python experience?"
+
+#### 🤖 **General AI Mode (RAG Disabled)**
+- **When OFF**: Uses only the AI's general knowledge without document context
+- **Best for**: General questions, creative tasks, coding help, general knowledge
+- **Example**: "How do I write a Python function?"
+
+**Visual Indicators**: Each bot response shows whether it used documents (📚) or general AI (🤖) mode.
+
+### Document Upload Feature
+
+The web interface includes a drag-and-drop upload area that makes it easy to add new documents:
+
+#### 📁 **Upload Methods**
+- **Drag & Drop**: Simply drag files from your computer onto the upload area
+- **Click to Upload**: Click the upload area to open a file browser
+- **Multiple Files**: Upload multiple files at once
+
+#### 📄 **Supported File Types**
+- **PDF Files** (`.pdf`): Documents, reports, articles
+- **Text Files** (`.txt`): Plain text documents
+- **Markdown Files** (`.md`): Documentation, notes, README files
+
+#### ⚡ **Automatic Processing**
+- **File Validation**: Checks file type and size (max 10MB)
+- **Auto-Save**: Files are saved to the `documents/` folder
+- **Auto-Reload**: Vector store is automatically updated
+- **Status Updates**: Real-time upload progress and success/error messages
+
+#### 🎯 **Upload Workflow**
+1. **Upload**: Drag files or click to select
+2. **Validation**: System checks file type and size
+3. **Save**: Files are saved to documents folder
+4. **Reload**: Vector store is automatically updated
+5. **Ready**: New documents are immediately available for queries
+
+#### Use the API Client
+
+```bash
+# Interactive client
+python api_client.py
+
+# Demo API usage
+python api_client.py demo
+```
+
 ### Features
 
+- **CLI Interface**: Clean terminal-based conversation
+- **REST API**: Full REST API with FastAPI
+- **Modern Web Interface**: Beautiful chatbot UI with animations
+- **Document Upload**: Drag & drop or click to upload PDF, TXT, MD files
+- **Auto-Reload**: Automatically reloads vector store after upload
+- **Context Toggle**: Switch between document-based RAG and general AI responses
+- **Robot Thinking Animation**: Visual feedback when AI is processing
+- **Responsive Design**: Works on desktop and mobile
 - **Automatic New Terminal**: Opens in a separate terminal window
-- **Clean Interface**: No technical logs cluttering the conversation
 - **Background Logging**: All logs saved to `logs/chatbot.log` silently
 - **Cross-Platform**: Works on Windows, Mac, and Linux
 
@@ -102,6 +182,195 @@ Once the chatbot is running, you can use these commands:
 - **`clear`**: Clear chat history
 - **`reload`**: Reload documents and recreate vector store
 - **`quit`**, **`exit`**, or **`bye`**: Exit the application
+
+## 📡 API Endpoints
+
+### Chat Endpoints
+
+#### `POST /api/chat`
+Send a message to the chatbot.
+
+**Request Body:**
+```json
+{
+  "message": "What is machine learning?",
+  "include_context": true,
+  "session_id": "optional_session_id"
+}
+```
+
+**Response:**
+```json
+{
+  "response": "Machine Learning is a subset of AI...",
+  "session_id": "session_1234567890",
+  "timestamp": "2024-01-01T12:00:00",
+  "include_context": true
+}
+```
+
+#### `GET /api/status`
+Get chatbot status and configuration.
+
+**Response:**
+```json
+{
+  "status": "ready",
+  "message": "Chatbot is ready",
+  "documents_loaded": 3,
+  "vector_store_ready": true
+}
+```
+
+### History Endpoints
+
+#### `GET /api/history?limit=50`
+Get chat history.
+
+**Response:**
+```json
+{
+  "history": [
+    {
+      "timestamp": "2024-01-01T12:00:00",
+      "query": "What is machine learning?",
+      "response": "Machine Learning is...",
+      "include_context": true
+    }
+  ],
+  "total_count": 1
+}
+```
+
+#### `DELETE /api/history`
+Clear chat history.
+
+**Response:**
+```json
+{
+  "message": "Chat history cleared successfully"
+}
+```
+
+### Document Management
+
+#### `POST /api/reload`
+Reload documents and recreate vector store.
+
+**Response:**
+```json
+{
+  "message": "Document reload started in background"
+}
+```
+
+#### `GET /api/documents`
+Get list of available documents.
+
+**Response:**
+```json
+{
+  "documents": [
+    {
+      "filename": "sample_knowledge.md",
+      "size": 2048,
+      "type": ".md"
+    }
+  ],
+  "total_count": 1
+}
+```
+
+### Utility Endpoints
+
+#### `POST /api/upload`
+Upload documents to the chatbot.
+
+**Request Body:**
+```
+Content-Type: multipart/form-data
+files: [file1.pdf, file2.txt, file3.md]
+```
+
+**Response:**
+```json
+{
+  "message": "Successfully uploaded 3 file(s)",
+  "uploaded_count": 3,
+  "errors": []
+}
+```
+
+#### `GET /api/health`
+Health check endpoint.
+
+**Response:**
+```json
+{
+  "status": "healthy",
+  "timestamp": "2024-01-01T12:00:00"
+}
+```
+
+## 💻 API Usage Examples
+
+### Python Client Example
+
+```python
+import requests
+
+# Send a message to the chatbot
+response = requests.post('http://localhost:8000/api/chat', json={
+    'message': 'What is machine learning?',
+    'include_context': True
+})
+
+print(response.json()['response'])
+```
+
+### cURL Examples
+
+```bash
+# Send a message
+curl -X POST "http://localhost:8000/api/chat" \
+     -H "Content-Type: application/json" \
+     -d '{"message": "What is machine learning?", "include_context": true}'
+
+# Get status
+curl "http://localhost:8000/api/status"
+
+# Get chat history
+curl "http://localhost:8000/api/history?limit=10"
+
+# Clear history
+curl -X DELETE "http://localhost:8000/api/history"
+
+# Reload documents
+curl -X POST "http://localhost:8000/api/reload"
+
+# Upload documents
+curl -X POST "http://localhost:8000/api/upload" \
+     -F "files=@document1.pdf" \
+     -F "files=@document2.txt"
+```
+
+### JavaScript/Node.js Example
+
+```javascript
+const response = await fetch('http://localhost:8000/api/chat', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+        message: 'What is machine learning?',
+        include_context: true
+    })
+});
+
+const data = await response.json();
+console.log(data.response);
+```
 
 ### Example Session
 
@@ -178,12 +447,14 @@ EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 
 ```
 langchain_chatbot/
-├── chatbot.py              # Main chatbot application (opens in new terminal)
+├── chatbot.py              # Main chatbot application (CLI interface)
+├── api_server.py           # FastAPI server for REST API
+├── api_client.py           # API client for testing
+├── start_api.py            # API server startup script
 ├── requirements.txt        # Python dependencies
 ├── env_template.txt        # Environment variables template
 ├── setup.py                # Automated setup script
 ├── test_installation.py    # Installation verification script
-├── demo.py                 # Demo script showing usage
 ├── README.md              # This file
 ├── documents/             # Your documents folder
 │   ├── sample_knowledge.md
@@ -191,7 +462,8 @@ langchain_chatbot/
 │   └── web_development.md
 ├── vector_store/          # Generated vector database
 ├── logs/                  # Log files
-│   └── chatbot.log
+│   ├── chatbot.log
+│   └── api_server.log
 └── venv/                  # Virtual environment
 ```
 
